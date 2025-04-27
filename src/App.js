@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Timeline from "./components/Timeline"; // 你自己的 Timeline 组件
+import ProjectDetail from "./pages/ProjectDetail"; // 项目详情页面
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Timeline />} />
+        <Route path="/timeline" element={<Timeline />} />
+        <Route path="/project/:id" element={<ProjectDetail />} />
+      </Routes>
+    </Router>
   );
 }
 
