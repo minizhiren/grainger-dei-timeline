@@ -28,50 +28,14 @@ export const projectData = [
     `,
   },
   {
-    id: 2,
-    year: "2020",
-    source: "2020 ARTF",
-    title: "Expand Anti-Racism Syllabus Statement",
-    recom: "Curriculum focused on DEI",
-    status: "Ongoing",
-    details: "Adopted in Fall 2020. 19% of syllabi included the statement...",
-  },
-  {
-    id: 3,
-    year: "2022",
-    source: "2021–2022 Report #12",
-    title: "New student programming model",
-    recom: "Student-Focused Efforts",
-    status: "Done",
-    details:
-      "ARISE program funded by NSF and Amazon. More funding from Shell...",
-  },
-  {
-    id: 4,
-    year: "2021",
-    source: "2021–2022 Report #3",
-    title: "Increase funding for Morrill Engineering Program",
-    recom: "Funding & Resources",
-    status: "Not Started",
-    details: "Identified as high need but not started yet...",
-  },
-  {
-    id: 5,
-    year: "2022",
-    source: "2021–2022 Report #5",
-    title: "Re-examine relationship with law enforcement",
-    recom: "Relationship with Outside Entities",
-    status: "In Progress",
-    details: "Dean met with police chief, plans for a committee underway...",
-  },
-  {
     id: 6,
     year: "2021",
-    source: "2020 ARTF",
+    source: "2020 ARTF - Section 3.17",
     title: "Evaluate companies on anti-racism history",
     recom: "Relationship with Outside Entities",
     status: "Infeasible",
-    details: "No existing models found for evaluation...",
+    details:
+      "We currently know of no existing models for evaluating the anti-racist history of companies.",
   },
   {
     id: 7,
@@ -81,8 +45,23 @@ export const projectData = [
     recom: "Curriculum focused on DEI",
     status: "Not Started",
     details: `
-  The college has identified the need for curriculum development that incorporates principles of diversity, equity, and inclusion (DEI) more systematically. Recommendations include creating new DEI-focused course content and revising existing syllabi to embed inclusive perspectives. Additional guidance is expected through future accreditation requirements and peer institution benchmarking.
-    `,
+    Created new DEI and service-learning courses. Here is our current set:
+
+    - **ENG 177**: Engineering First-Year Experience Seminars (Global Sustainability & Design; Global Service Learning)
+    - **ENG298-SEP**: STEM Education Practicum
+    - **ENG398-SJS**: Social Justice & STEM Education
+    - **ENG411**: Engineering Ambassadors Mentoring Class
+    - **CS491-EIT**: Inclusive Terminology
+    - **MSE590/ENG592**: Professional Leadership for Engineers
+    - **CS500**: Current Topics in CS Education (Focused on DEI in Spring 2022)
+    - **ENG591**: Diversity & Inclusion Service
+
+    ---
+    
+    **Spring 2022**: Submitted an NSF BPE proposal to create a Center for Equity in Engineering Education at Illinois (CE3I), but it was not awarded. IDEA Institute is revising a proposal for resubmission to create a Developing Equity-Minded Engineering Practitioners (DEEP) Center.
+
+    **Fall 2022**: GCOE leadership attended an ABET Accreditation Big Ten ++ Summit on integrating DEI into undergraduate courses.
+  `,
   },
   {
     id: 8,
@@ -92,7 +71,7 @@ export const projectData = [
     recom: "Funding & Resources",
     status: "Not Started",
     details: `
-  With the sharp increase in students in the Morrill Engineering Program (MEP), the Diversity Committee has noted this as an area of high need. Additional funding is needed to hire staff and expand support.
+  With the sharp increase in students in MEP, the Diversity committee has noted this as an area of high need.
     `,
   },
   {
@@ -183,7 +162,7 @@ After the establishment of the IDEA Institute in Fall 2019, the goal of dynamic 
     recom: "Infrastructure and Accountability",
     status: "Done",
     details:
-      "Established the IDEA Institute in Fall 2019, an Ombudsperson in Spring 2021, and various leadership roles for DEI in 2021. Data collection on DEI is ongoing.",
+      "Established the IDEA Institute in Fall 2019, an Ombudsperson in Spring 2021, the Associate Dean for Diversity, Equity, and Inclusion in Fall 2021, and the Dean’s Fellow for Inclusion, Belonging, and Engagement in Fall 2021. IDEA interns and others are collecting data on DEI. ",
   },
   {
     id: 16,
@@ -213,7 +192,7 @@ After the establishment of the IDEA Institute in Fall 2019, the goal of dynamic 
     recom: "Departmental Engagement",
     status: "Done",
     details:
-      "Department leaders communicated DEI goals in Fall 2022 meetings. Departments shared updates during committee sessions.",
+      "Requests were communicated in the Grainger DEI leadership meetings with departmental leaders in Fall 2022. Diversity Committee meetings in the fall of 2022 included all departments sharing their progress towards this goal. ",
   },
   {
     id: 19,
@@ -343,7 +322,7 @@ After the establishment of the IDEA Institute in Fall 2019, the goal of dynamic 
     recom: "Bias Reporting",
     status: "In Progress",
     details:
-      "Dean’s Fellow working on CARES model. Trained grad student peer allies to help students connect with resources.",
+      "Dean’s Fellow Tiffani Williams is working on developing Grainger CARES, modeled after CS CARES. In addition to a greater web presence of resources, there have been several expansions of this such as CS Cares, AlliesInStem, and the Graduate Diversity ambassadors.",
   },
   {
     id: 32,
@@ -359,11 +338,11 @@ After the establishment of the IDEA Institute in Fall 2019, the goal of dynamic 
     id: 33,
     year: "2018",
     source: "2017–2018 Report #8",
-    title: "Campus-level conversation on DEI in promotion and tenure",
+    title:
+      "The GCOE biodata form (BDF) should be updated to include categories that recognize (i) efforts to promote diversity, equity, and inclusion at the department, college, and campus levels, and (ii) completed training activities in diversity issues.",
     recom: "Faculty DEI Emphasis",
     status: "Done",
-    details:
-      "Comm 9 for P&T updated; faculty now include 1-page statement on DEI contributions in research, teaching, or service.",
+    details: "Completed Fall 2021.",
   },
   {
     id: 34,
@@ -382,7 +361,7 @@ After the establishment of the IDEA Institute in Fall 2019, the goal of dynamic 
     recom: "Faculty DEI Emphasis",
     status: "In Progress",
     details:
-      "College is supporting faculty to meet promotion/tenure DEI expectations. Working to integrate DEI content into ABET-required courses.",
+      "The Diversity Committee is working to support faculty in meeting the new promotion and tenure requirement of making contributions to diversity, equity, and inclusion. Additionally, the College is working with faculty to begin a more systematic effort to integrate DEI into courses to satisfy new ABET DEI requirements.",
   },
   {
     id: 36,
@@ -401,8 +380,11 @@ After the establishment of the IDEA Institute in Fall 2019, the goal of dynamic 
     title: "Require DEI training for all GCOE recruiting committee members",
     recom: "Diversity Training",
     status: "In Progress",
-    details:
-      "Training available to all since 2018, but not required. Sloan model adopted for holistic review compliance.",
+    details: `As of Fall 2018, the training is available to all faculty, but is not currently required.
+  
+  The Sloan University Center of Exemplary Mentoring requires admissions committee members in partnering departments, including all Grainger units, to verify having read training materials on holistic admissions and bias in reviewing applicant materials. Non-compliant departments are ineligible to nominate admitted graduate students underrepresented in STEM to the Sloan Scholarship competition. As the Sloan grant is expiring in June 2024, moving forward it will be important to institutionalize this requirement (e.g., for the GCOE SURGE fellowship competition). In Spring 2022, the College implemented such a practice by requiring completion of the graduate recruitment and retention worksheet (https://forms.illinois.edu/sec/1034128800) to be eligible for SURGE funding.
+  
+  In spring 2022 four College personnel (Executive Associate Dean Philippe Geubelle, College Promotion and Tenure Chair Pascal Bellon, Associate Dean for Diversity, Equity, and Inclusion Lynford Goddard, and IDEA Institute Associate Director for Faculty and Staff Engagement Ellen Wang Althaus), participated in a train-the-trainer workshop organized by the Provost Office. These four facilitators then conducted workshops in fall 2022 entitled “Diversity and Equity in Promotion and Tenure” for members of the College promotion and tenure committee, department executive officers, and chairs of departmental promotion and tenure committees. The workshops will be offered annually and expanded to include all members of departmental promotion and tenure P&T committees.`,
   },
   {
     id: 38,
@@ -465,16 +447,6 @@ After the establishment of the IDEA Institute in Fall 2019, the goal of dynamic 
       "HR developed recruitment insights and advertising list. DEI data shared with departments to aid targeted job efforts.",
   },
   {
-    id: 44,
-    year: "2017",
-    source: "2017–2018 Report #1",
-    title: "Facilitate DEI reflection via staff worksheet",
-    recom: "Staff Engagement and Hiring",
-    status: "In Progress",
-    details:
-      "Staff and faculty complete reflection worksheet to identify gaps and define new practices for improving retention and inclusion.",
-  },
-  {
     id: 45,
     year: "2020",
     source: "2020 ARTF - Section 3.3",
@@ -502,6 +474,6 @@ After the establishment of the IDEA Institute in Fall 2019, the goal of dynamic 
     recom: "Representation and Access",
     status: "Done",
     details:
-      "SURGE fellowships expanded by 50% in Fall 2018 to improve domestic and international graduate recruitment.",
+      "This was completed in the Fall of 2018. This was through expansion of SURGE fellowships (increased by 50%)",
   },
 ];

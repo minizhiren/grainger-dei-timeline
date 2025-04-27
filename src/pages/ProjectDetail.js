@@ -99,7 +99,15 @@ export default function ProjectDetail() {
           </Stack>
 
           <Divider sx={{ my: 3 }} />
-
+          {/* 📌 前缀标题 */}
+          <Typography
+            variant="h5"
+            fontWeight="bold"
+            gutterBottom
+            color="text.secondary"
+          >
+            Fall 2022 Update
+          </Typography>
           {/* 📌 项目详细描述 */}
           <Typography
             variant="body1"
